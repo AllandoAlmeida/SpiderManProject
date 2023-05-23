@@ -1,0 +1,35 @@
+/* criar a função da animação - olhos piscando*/
+
+@keyframes olhosPiscando {
+    0%{
+        height: 2px;
+    }
+    100%{
+        height: 5px;
+    }
+}
+/* animação de teia */
+
+@keyframes desceSobeTeia{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+/* animação cabeça */
+
+#homen-aranha .cabeça:hover{
+    border-radius: 30px 30px 20px 20px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: -1px;
+    left: 30%;
+    margin-left: -1px;
+    background-color: #be5505;
+    border: solid 1px #e10b0b;
+}
